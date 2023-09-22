@@ -1,0 +1,20 @@
+Grain Farm
+Timber Farm
+Cattle
+Fruit
+Fish
+Wool
+Coal 
+Iron
+Cotton
+Tea
+Coffee
+Tropical_Wood
+Tobacco
+Sulfur
+Silk
+Opium
+Dye
+Precious_Metals
+Oil
+Rubber

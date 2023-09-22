@@ -1,0 +1,12 @@
+Arctic 0.50 0.80 1 0.80 -1
+Coastal_Desert 0.75 1 1 1 0
+Desert 0.50 0.80 1 1 0
+Farmlands 1.2 1 1 1 0
+Forest 1 1 1 1 0
+Hills 1 1 1 1 -1
+Jungle 1 0.80 1 0.80 -2
+Marsh 1 0.80 1 0.80 -2
+Mountains 1 0.75 1 1 -3
+Plains 1 1 1 1 0
+Steppe 1 1 1 1 0
+Woods 1 1 1 1 0

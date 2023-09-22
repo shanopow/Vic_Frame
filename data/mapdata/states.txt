@@ -1,0 +1,3 @@
+Ulster 254,255,256,257
+Leinster-Connacht 258,259,263,264,265
+Munster 260,261,262

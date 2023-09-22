@@ -1,0 +1,12 @@
+254 Belfast ENG IRL,ENG Cattle 35
+255 Londonderry IRL,ENG Cattle 35
+256 Armagh ENG IRL,ENG Cattle 35
+257 Donegal ENG IRL,ENG Cattle 35
+258 Galway ENG IRL,ENG Cattle 35
+259 Sligo ENG IRL,ENG Cattle 35
+260 Cork ENG IRL,ENG Fish 35
+261 Limerick ENG IRL,ENG Fish 35
+262 Waterford ENG IRL,ENG Fish 35
+263 Dublin ENG IRL,ENG Grain 35
+264 Kildare ENG IRL,ENG Cattle 35
+265 Wexford ENG IRL,ENG Fish 35
