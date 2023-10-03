@@ -42,6 +42,7 @@ class Entry{
 int main(){
     std::vector<std::string> holder;
     holder.push_back("data/mapdata/provinces.txt");
+    holder.push_back("data/mapdata/states.txt");
     DataReader *rah = new DataReader(holder);
     rah->File_Reader();
 }
