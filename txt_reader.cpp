@@ -8,23 +8,26 @@
 class DataReader{
     public:
     std::vector<std::string> to_read;
+    std::string temp_holder;
     //std::unordered_map<std::string, Entry> made_of;
 
     DataReader(std::vector<std::string> to_read){
         this->to_read = to_read;
     };
 
-    void File_Reader(){
-        std::string tmp_holder;
+    void FileTaker(){
         for (auto i : this->to_read){
-            std::ifstream myfile (i);
-            
-            if ( myfile.is_open() ) {
-                while (myfile){
-                    myfile >> tmp_holder;
-                    std::cout << tmp_holder;   
-                }
-            }        
+            this->FileReader(i);        
+        }
+    };
+
+    void FileReader(std::string i){
+        std::ifstream myfile (i);
+        if ( myfile.is_open() ) {
+            while (myfile){
+                myfile >> this->temp_holder;
+                std::cout << this->temp_holder;   
+            }
         }
     };
 };
@@ -44,5 +47,5 @@ int main(){
     holder.push_back("data/mapdata/provinces.txt");
     holder.push_back("data/mapdata/states.txt");
     DataReader *rah = new DataReader(holder);
-    rah->File_Reader();
+    rah->FileTaker();
 }
