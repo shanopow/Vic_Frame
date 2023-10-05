@@ -9,6 +9,8 @@ class DataReader{
     public:
     std::vector<std::string> to_read;
     std::string temp_holder;
+    std::vector<std::string> tok_split;
+    
     //std::unordered_map<std::string, Entry> made_of;
 
     DataReader(std::vector<std::string> to_read){
@@ -25,8 +27,8 @@ class DataReader{
         std::ifstream myfile (i);
         if ( myfile.is_open() ) {
             while (myfile){
-                myfile >> this->temp_holder;
-                std::cout << this->temp_holder;   
+                std::getline (myfile, this->temp_holder);
+                std::cout << this->temp_holder << myfile.tellg() << '\n';
             }
         }
     };
